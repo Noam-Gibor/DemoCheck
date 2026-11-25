@@ -19,3 +19,6 @@ data/raw/
 
 # Local tool config
 .claude/
+
+# Lab data and lab analysis (not public until the lab head approves)
+lab/
