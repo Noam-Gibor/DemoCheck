@@ -61,7 +61,7 @@
 ```bash
 pip install -r requirements.txt
 python scripts/make_sample.py
-jupyter notebook notebooks/m1_first_look.ipynb
+python -m notebook notebooks/m1_first_look.ipynb
 ```
 הסקריפט `make_sample.py` מוריד קובץ אחד מהדאטה-סט הפתוח (כ-90MB) ושומר ממנו דגימה קטנה בתיקייה `data/`. פרטים ב-[data/README.md](data/README.md).
 
