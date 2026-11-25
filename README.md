@@ -76,7 +76,9 @@
 pip install -r requirements.txt
 python scripts/make_features.py
 python -m notebook notebooks/m2_eda.ipynb
+python -m streamlit run app.py
 ```
+`app.py` היא האפליקציה הראשונה (M1): שם הפרויקט, משפט הפרויקט, 5 השורות הראשונות של הנתונים, ו"בקרוב: מודל".
 `make_features.py` מוריד את קובץ הנתונים (כ-51MB) לתיקייה `data/raw/` (לא עולה לגיטהאב) ויוצר את `data/demos_features.csv`. המחברת יוצרת את `data/demos_clean.csv`.
 
 </div>

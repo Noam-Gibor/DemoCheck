@@ -16,3 +16,6 @@ data/raw/
 *.mp4
 *.hdf5
 *.h5
+
+# Local tool config
+.claude/
